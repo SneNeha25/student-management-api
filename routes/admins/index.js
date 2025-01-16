@@ -58,6 +58,7 @@ router.get('/get-by-level/:level', async (req, res) => {
   }
 });
 
+//Get all admins
 router.get('/get', async (req, res) => {
   return res.status(200).json(admins);
 });

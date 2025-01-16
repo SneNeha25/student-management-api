@@ -20,6 +20,7 @@ router.get('/get/:id', async (req, res) => {
   }
 });
 
+//Get all students
 router.get('/get', async (req, res) => {
   return res.status(200).json(students);
 });
